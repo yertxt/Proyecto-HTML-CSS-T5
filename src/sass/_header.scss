@@ -1,0 +1,31 @@
+.nav {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__list {
+  display: flex;
+  color: $red-s;
+  list-style: none;
+  gap: 20px;
+  padding: 16px 32px;
+  margin: 0;
+}
+
+.logo__container {
+  display: flex;
+  color: $red-s;
+  fill: $red-s;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  gap: 8px;
+  padding: 17px 250px 300px 17px;
+}
+
+.basket__icon {
+  fill: $red-s;
+  padding: 11px 32px;
+}

@@ -1,0 +1,70 @@
+.main {
+  background-color: $red-s;
+  height: 1000px;
+}
+.principal-section {
+  background-color: $red-s;
+  position: relative;
+}
+.principal-section__title {
+  width: 950px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white-s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -155%);
+  z-index: 1;
+}
+
+.principal-section__image {
+  border-radius: 500px;
+  justify-content: center;
+  margin: auto;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 120px;
+  z-index: 0;
+}
+
+/*.principal-section__border {
+    fill: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top:103px;
+    left: 600px;
+}*/
+
+.principal-section__text {
+  display: flex;
+  width: 300px;
+  height: auto;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-align: justify;
+  color: $white-s;
+  position: absolute;
+  top: 60%;
+  left: 7%;
+}
+
+.fruit-banana {
+  list-style: none;
+  position: absolute;
+  top: 22%;
+  left: 18%;
+}
+
+.fruit-strawberry {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  right: 21%;
+}
