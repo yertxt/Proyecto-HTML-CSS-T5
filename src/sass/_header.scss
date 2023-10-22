@@ -13,12 +13,16 @@
   margin: 0;
 }
 
+<<<<<<< HEAD
 .nav__link {
   color: $red-s;
   text-decoration: none;
 }
 
 .logo {
+=======
+.logo__container {
+>>>>>>> 00055934304c1b0f44f78c24c44312ffe2bf13f0
   display: flex;
   color: $red-s;
   fill: $red-s;
@@ -27,6 +31,7 @@
   text-align: center;
   text-transform: uppercase;
   gap: 8px;
+<<<<<<< HEAD
   padding: 17px 550px 0px 350px;
 
   &__icon {
@@ -40,12 +45,16 @@
     line-height: 1.2;
     letter-spacing: 0.04em;
   }
+=======
+  padding: 17px 250px 300px 17px;
+>>>>>>> 00055934304c1b0f44f78c24c44312ffe2bf13f0
 }
 
 .basket__icon {
   fill: $red-s;
   padding: 11px 32px;
 }
+<<<<<<< HEAD
 
 .menu-toggle {
   display: none;
@@ -167,3 +176,5 @@
     text-decoration: none;
   }
 }
+=======
+>>>>>>> 00055934304c1b0f44f78c24c44312ffe2bf13f0
