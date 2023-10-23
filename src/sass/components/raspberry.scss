@@ -1,0 +1,21 @@
+.popup2-image {
+  align-self: center;
+  padding-top: 68px;
+  display: block;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 28px;
+  cursor: none;
+}
+@media (max-width: 375px) {
+  .popup2-image {
+    width: 207px;
+    align-self: center;
+    padding-top: 68px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 20px;
+    cursor: none;
+  }
+}
