@@ -1,5 +1,5 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700;9..40,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700;9..40,900&display=swap");
 /*estandar*/
 body {
   font-family: DM Sans, sans-serif;
@@ -58,7 +58,8 @@ body {
   list-style: none;
   display: flex;
   padding: 0%;
-  column-gap: 24px;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
   margin: 44px 0 81px 0;
 }
 
@@ -119,7 +120,7 @@ body {
   margin: 0%;
   display: flex;
   -moz-column-gap: 14px;
-  column-gap: 14px;
+       column-gap: 14px;
   justify-content: center;
   align-items: center;
 }
@@ -136,9 +137,9 @@ body {
 
 /*puntos de quiebre*/
 /*tablet*/
-@media (max-width: 962px) {
+@media (max-width: 768px) {
   .container {
-    width: 962px;
+    width: 704px;
   }
   .order__explanation {
     width: 624px;
@@ -160,11 +161,11 @@ body {
   .order__explanation__description {
     font-size: 14px;
   }
-  /*mobile*/
 }
-@media (max-width: 768px) {
+/*mobile*/
+@media (max-width: 375px) {
   .container {
-    width: 768px;
+    width: 335px;
   }
   .order__explanation {
     width: 335px;
@@ -178,7 +179,7 @@ body {
   }
   .order__gift {
     width: 335px;
-    height: auto;
+    height: 476px;
   }
   .order__explanation__title {
     font-size: 28px;
@@ -186,4 +187,7 @@ body {
   .order__explanation__description {
     font-size: 14px;
   }
-} /*# sourceMappingURL=main.css.map */
+  .order__step {
+    width: 335px;
+  }
+}/*# sourceMappingURL=main.css.map */
