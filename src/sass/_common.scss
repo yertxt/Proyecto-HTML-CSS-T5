@@ -7,11 +7,12 @@ $green-s: #a4cb66;
 $yellow-s: #f5ce13;
 $white-s: #fff;
 
-.body {
-  font-family: 'DM Sans', sans-serif;
+.color--nav {
+  background-color: $white-s;
 }
+
 * {
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
 }
 li {
   list-style: none;
