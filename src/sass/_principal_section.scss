@@ -1,338 +1,335 @@
 .main {
-    background-color: $red-s;
-    height: 2000px;  /*tamaño temporal para trabajar*/
+  background-color: $red-s;
+  height: 2000px; /*tamaño temporal para trabajar*/
 }
 .principal-section {
-    background-color: $red-s;
-    position: relative;
+  background-color: $red-s;
+  position: relative;
 }
 .principal-section__title {
-    width: 950px;
-    font-weight: 500;
-    font-size: 64px;
-    line-height: 1;
-    letter-spacing: 0.04em;
-    margin:auto; 
-    justify-content: center;
-    text-align:center;
-    text-transform: uppercase;
-    color:$white-s;
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%,  -155%); 
-    z-index: 1;
+  width: 950px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white-s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -155%);
+  z-index: 1;
 }
 
 .principal-section__image {
-    border-radius: 500px;
-    justify-content: center;
-    z-index: 0;
+  border-radius: 500px;
+  justify-content: center;
+  z-index: 0;
 }
 
-.principal-section__container-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 485px;
-    height: 735px;
-    margin: auto;
-    position: relative;
-    top:115px;
-    z-index: 0;
+.principal-section__container-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 485px;
+  height: 735px;
+  margin: auto;
+  position: relative;
+  top: 115px;
+  z-index: 0;
 }
 
 .principal-section__border-image {
- position: absolute;
+  position: absolute;
 }
 
 .principal-section__button {
-    display: flex;
-    flex-wrap: wrap;
-    width: 114px;
-    height: 114px;
-    border-color: transparent;
-    border-radius: 50%;
-    font-weight: 500;
-    font-size: 28px;
-    line-height:1;
-    letter-spacing: 0.04em;
-    color: $red-s;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 25px 9px 20px 9px;
-    transform: rotate(-14deg);
-    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-    cursor: pointer;
-    position: absolute;
-    left: 46%;
-    top:103%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 114px;
+  height: 114px;
+  border-color: transparent;
+  border-radius: 50%;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  color: $red-s;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 25px 9px 20px 9px;
+  transform: rotate(-14deg);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  cursor: pointer;
+  position: absolute;
+  left: 46%;
+  top: 103%;
 
-    &:hover {
-        color:$green-s
-    }
+  &:hover {
+    color: $green-s;
+  }
 }
 
 .principal-section__text {
-    display: flex;
-    width: 255px;
-    height: auto;
-    font-size: 14px;
-   line-height: 1.2;
-   letter-spacing: 0.04em;
-   text-align:justify;
-   color:$white-s;
-   position: absolute;
-   top: 55%;
-   left: 9%;
+  display: flex;
+  width: 255px;
+  height: auto;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-align: justify;
+  color: $white-s;
+  position: absolute;
+  top: 55%;
+  left: 9%;
 }
 
 .fruit-banana {
-    list-style: none;
-    position: absolute;
-    top:25%;
-    left: 20%;
+  list-style: none;
+  position: absolute;
+  top: 25%;
+  left: 20%;
 }
 
 .fruit-strawberry {
-    list-style: none;
-    position: absolute;
-    top:5%;
-    right: 22%;
-} 
+  list-style: none;
+  position: absolute;
+  top: 5%;
+  right: 22%;
+}
 
 .watermelon__container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 249px;
-    height: 387px;
-    background-color: $green-s;
-    border-radius: 500px;
-    padding: 28px 25px 15px 24px;
-    position: absolute;
-    left: 12%;
-    bottom: -30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 249px;
+  height: 387px;
+  background-color: $green-s;
+  border-radius: 500px;
+  padding: 28px 25px 15px 24px;
+  position: absolute;
+  left: 12%;
+  bottom: -30%;
 }
 
 .watermelon__title {
-    width: 24px;
-    height: 14px;
-    font-size: 12px;
-    font-weight:400;
-    line-height: 1.1;
-    letter-spacing: 0.04em;
-    color:$white-s;
-    text-align: center; 
-    padding-bottom: 61px;  
-    margin: 0;
+  width: 24px;
+  height: 14px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  color: $white-s;
+  text-align: center;
+  padding-bottom: 61px;
+  margin: 0;
 }
 
 .watermelon__text {
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 1.1;
-    letter-spacing: 0.04em;
-   text-align: center;
-   text-transform: uppercase;
-   color: $white-s;
-   padding: 0px 20px 20px 20px;
-   margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white-s;
+  padding: 0px 20px 20px 20px;
+  margin: 0;
 }
 
 .strawberry-basket__container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 249px;
-    height: 387px;
-    background-color: $yellow-s;
-    border-radius: 500px;
-    padding: 28px 35px 40px 35px;
-    position: absolute;
-    left: 70%;
-    bottom: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 249px;
+  height: 387px;
+  background-color: $yellow-s;
+  border-radius: 500px;
+  padding: 28px 35px 40px 35px;
+  position: absolute;
+  left: 70%;
+  bottom: 0%;
 }
 
 .strawberry-basket__title {
-    width: 24px;
-    height: 14px;
-    font-size: 12px;
-    font-weight:400;
-    line-height: 1.1;
-    letter-spacing: 0.04em;
-    color:$white-s;
-    text-align: center; 
+  width: 24px;
+  height: 14px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  color: $white-s;
+  text-align: center;
 }
 
 .strawberry-basket__text {
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 1.1;
-    letter-spacing: 0.04em;
-   text-align: center;
-   text-transform: uppercase;
-   color: $white-s;
-   padding: 0px 20px 0px 20px;
-   margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white-s;
+  padding: 0px 20px 0px 20px;
+  margin: 0;
 }
 
 .hashtag__container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 350px;
-    position: absolute;
-    left: 67%;
-    top:108%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  position: absolute;
+  left: 67%;
+  top: 108%;
 }
 
 .hashtag__list {
-    list-style:none;
-    display: flex;
-    margin: 0;
-    gap: 8px;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  gap: 8px;
 }
 
 .hashtag__list-two {
-    list-style:none;
-    display: flex;
-    margin-top: 8px;
-    margin-left: 35px;
-    gap: 8px;
+  list-style: none;
+  display: flex;
+  margin-top: 8px;
+  margin-left: 35px;
+  gap: 8px;
 }
-
 
 .hashtag__item {
-    border: solid 1px;
-    border-color: $white-s;
-    border-radius: 25px;
-    padding: 12px 32px;
-    color: $white-s;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.1;
+  border: solid 1px;
+  border-color: $white-s;
+  border-radius: 25px;
+  padding: 12px 32px;
+  color: $white-s;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.1;
 }
 
-
-@media screen and (max-width:768px) {
-.principal-section {
+@media screen and (max-width: 768px) {
+  .principal-section {
     width: 768px;
-}
+  }
 
-.principal-section__title {
+  .principal-section__title {
     width: 730px;
     font-size: 50px;
     line-height: 1.08;
-    top: 45%; 
-    left: 50%; 
-    transform: translate(-50%,  -155%); 
-    }
-    .fruit-banana {
-        top:24%;
-        left: 2%;
-    }
-    .fruit-banana__img{
-      width: 170px;
-    }
-    
-    .fruit-strawberry {
-        top:8%;
-        right: 3%;
-    } 
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -155%);
+  }
+  .fruit-banana {
+    top: 24%;
+    left: 2%;
+  }
+  .fruit-banana__img {
+    width: 170px;
+  }
 
-    .principal-section__text {
-       top: 125%;
-       left: 7%;
-    } 
-    .strawberry-basket__container {
-        left: 60%;
-        bottom: -80%;
-    }  
-    .watermelon__container {
-        left: 8%;
-        bottom: -105%;
-    }
-    .hashtag__container {
-        left: 53%;
-        top:187%;
-    }
-    
-.principal-section__button {
+  .fruit-strawberry {
+    top: 8%;
+    right: 3%;
+  }
+
+  .principal-section__text {
+    top: 125%;
+    left: 7%;
+  }
+  .strawberry-basket__container {
+    left: 60%;
+    bottom: -80%;
+  }
+  .watermelon__container {
+    left: 8%;
+    bottom: -105%;
+  }
+  .hashtag__container {
+    left: 53%;
+    top: 187%;
+  }
+
+  .principal-section__button {
     left: 42%;
+  }
 }
-}
 
-@media screen and (max-width:376px) {
-    .principal-section {
-        width: 375px;
-    }
-    .principal-section__title {
-        width: 370px;
-        font-size: 28px;
-        line-height: 1;
-        transform: translate(-50%,  -150%); 
-    }
-    .fruit-banana {
-        top:23%;
-        left: 0;
-    }
-    .fruit-banana__img {
-        width: 90px;
-        height: 65px;
-    }
-    
-    .fruit-strawberry {
-        top:11%;
-        right: -1%;
-    } 
-    .fruit-strawberry__img {
-        width: 65px;
-        height: 65px;
-    }
-    .principal-section__image {
-        width: 311px;
-        height: 484px;
-    }
-    .principal-section__container-image {
-        width: 330px;
-        height: 505px;
-        top:110px;
-    }
-    .principal-section__border-image{
-        width: 335px;
-        height: 509px;
-    }
+@media screen and (max-width: 376px) {
+  .principal-section {
+    width: 375px;
+  }
+  .principal-section__title {
+    width: 370px;
+    font-size: 28px;
+    line-height: 1;
+    transform: translate(-50%, -150%);
+  }
+  .fruit-banana {
+    top: 23%;
+    left: 0;
+  }
+  .fruit-banana__img {
+    width: 90px;
+    height: 65px;
+  }
 
-    .principal-section__button {
-        width: 80px;
-        height: 80px;
-        font-size: 20px;
-        line-height: 1;
-        padding: 18px 9px 20px 9px;
-        left: 40%;
-        top: 110%;
-    }
-    .principal-section__text {
-        top: 133%;
-        left: 16%;
-     } 
+  .fruit-strawberry {
+    top: 11%;
+    right: -1%;
+  }
+  .fruit-strawberry__img {
+    width: 65px;
+    height: 65px;
+  }
+  .principal-section__image {
+    width: 311px;
+    height: 484px;
+  }
+  .principal-section__container-image {
+    width: 330px;
+    height: 505px;
+    top: 110px;
+  }
+  .principal-section__border-image {
+    width: 335px;
+    height: 509px;
+  }
 
-     .watermelon__container {
-        left: 18%;
-        bottom: -140%;
-    }
-     .hashtag__container {
-        left: 2%;
-        top:250%;
-    }
+  .principal-section__button {
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+    line-height: 1;
+    padding: 18px 9px 20px 9px;
+    left: 40%;
+    top: 110%;
+  }
+  .principal-section__text {
+    top: 133%;
+    left: 16%;
+  }
 
-    .hashtag__list-two {
-        margin-left: 15px;
-    }
-    .strawberry-basket__container {
-        left: 17%;
-        bottom: -255%;
-    }
-   
+  .watermelon__container {
+    left: 18%;
+    bottom: -140%;
+  }
+  .hashtag__container {
+    left: 2%;
+    top: 250%;
+  }
+
+  .hashtag__list-two {
+    margin-left: 15px;
+  }
+  .strawberry-basket__container {
+    left: 17%;
+    bottom: -255%;
+  }
 }
