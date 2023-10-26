@@ -47,6 +47,9 @@
   }
 }
 
+.js-menu-container {
+  display: none;
+}
 .basket__icon {
   fill: $red-s;
   padding: 11px 32px;
@@ -87,7 +90,7 @@
   .nav__list {
     padding: 0;
   }
-  .toogle__container {
+  .js-menu-container {
     display: block;
   }
   .nav {
