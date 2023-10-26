@@ -24,6 +24,12 @@ p {
   border-radius: 4px;
 }
 
+.order-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .cart__title {
   padding-top: 30px;
 }
@@ -161,11 +167,11 @@ p {
 .order-arrow {
   width: 14px;
   height: 14px;
-  top: 58px;
-  left: 16px;
+  top: 60px;
   position: absolute;
   fill: $white-s;
   cursor: pointer;
+  transform: translateX(-220%);
   /* background-color: $green-s; */
 }
 .order-arrow--position {
