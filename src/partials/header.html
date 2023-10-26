@@ -28,7 +28,7 @@
         </svg>
       </a>
 
-      <button class="menu-toggle js-open-menu is-hidden" aria-expanded="false" aria-controls="mobile-menu">
+      <button is-open class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
         <svg class="toogle-icon" width="24" height="24">
           <use href="/src/icons/icons.svg#menu-h"></use>
         </svg>
@@ -50,26 +50,6 @@
               <svg width="28" height="28">
                 <use href="/src/icons/icons.svg#cart"></use></svg
             ></a>
-          </li>
-        </ul>
-      </div>
-      <div class="menu-container js-menu-container is-hidden" id="mobile-menu">
-        <button class="menu-toggle js-close-menu">
-          <a class="button-closed">
-            <svg width="24" height="24">
-              <use href="/src/icons/icons.svg#closeb"></use>
-            </svg>
-          </a>
-        </button>
-        <ul class="mobile-menu">
-          <li class="mobile-menu__item"><a href="#how-it-works" class="link">How It Workst</a></li>
-          <li class="mobile-menu__item"><a href="#fruits" class="link">Fruits</a></li>
-          <li class="mobile-menu__item"><a href="#contactas" class="link">Contacts</a></li>
-          <li>
-            <a href="#main__gallery" class="link">
-              <svg width="28" height="28">
-                <use href="/src/icons/icons.svg#cart"></use></svg
-            </a>
           </li>
         </ul>
       </div>
@@ -166,6 +146,25 @@
         </div>
       </section>
     </main>
-    
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <a class="button-closed">
+          <svg width="24" height="24">
+            <use href="/src/icons/icons.svg#closeb"></use>
+          </svg>
+        </a>
+      </button>
+      <ul class="mobile-menu">
+        <li class="mobile-menu__item"><a href="#how-it-works" class="link">How It Workst</a></li>
+        <li class="mobile-menu__item"><a href="#fruits" class="link">Fruits</a></li>
+        <li class="mobile-menu__item"><a href="#contactas" class="link">Contacts</a></li>
+        <li>
+          <a href="#main__gallery" class="link">
+            <svg width="28" height="28">
+              <use href="/src/icons/icons.svg#cart"></use></svg
+          </a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
