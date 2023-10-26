@@ -1,10 +1,6 @@
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
   </head>
-  <body class="body">
-    <header class="nav">
+  <body class="">
+    <header class="nav color--nav">
       <nav class="nav__container">
         <ul class="nav__list">
           <li class="nav__item">
@@ -32,17 +28,17 @@
         </svg>
       </a>
 
-      <div class="container">
-        <button
-          class="menu-toggle js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg class="toogle-icon" width="24" height="24">
-            <use href="/src/icons/icons.svg#menu-h"></use>
-          </svg>
-        </button>
+      <button
+        class="menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="toogle-icon" width="24" height="24">
+          <use href="/src/icons/icons.svg#menu-h"></use>
+        </svg>
+      </button>
 
+      <div class="">
         <button class="menu-toggle js-close-menu">
           <a class="button-closed">
             <svg width="24" height="24">
@@ -162,11 +158,18 @@
         </div>
       </section>
     </main>
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <ul class="mobile-menu">
+        <li class="mobile-menu__item"><a href="#how-it-works" class="link">How It Workst</a></li>
+        <li class="mobile-menu__item"><a href="#fruits" class="link">Fruits</a></li>
+        <li class="mobile-menu__item"><a href="#contactas" class="link">Contacts</a></li>
+        <li>
+          <a href="#main__gallery" class="link">
+            <svg width="28" height="28">
+              <use href="/src/icons/icons.svg#cart"></use></svg
+          ></a>
+        </li>
+      </ul>
+    </div
   </body>
 </html>

@@ -1,8 +1,9 @@
 .nav {
-  width: auto;
+  width: 100vw;
   height: 50px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .nav__list {
   display: flex;
@@ -11,6 +12,10 @@
   gap: 20px;
   padding: 16px 32px;
   margin: 0;
+}
+
+.toogle__container {
+  display: none;
 }
 
 .nav__link {
@@ -27,7 +32,7 @@
   text-align: center;
   text-transform: uppercase;
   gap: 8px;
-  padding: 17px 550px 0px 350px;
+  // padding: 17px 550px 0px 350px;
 
   &__icon {
     fill: $red-s;
@@ -81,6 +86,9 @@
 @media screen and (max-width: 376px) {
   .nav__list {
     padding: 0;
+  }
+  .toogle__container {
+    display: block;
   }
   .nav {
     width: 375px;
