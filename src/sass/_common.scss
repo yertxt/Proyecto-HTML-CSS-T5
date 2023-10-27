@@ -7,6 +7,28 @@ $green-s: #a4cb66;
 $yellow-s: #f5ce13;
 $white-s: #fff;
 
+
+.color--nav {
+  background-color: $white-s;
+}
+
 * {
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0px;
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+h2 {
+  margin: 0;
 }
